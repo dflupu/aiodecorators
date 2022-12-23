@@ -10,7 +10,7 @@ Function decorators based on asyncio Lock, Semaphore and BoundedSemaphore
 ```
 from aiodecorators import Lock
 
-@Lock
+@Lock()
 async def f():
     pass
 ```
