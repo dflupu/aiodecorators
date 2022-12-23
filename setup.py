@@ -8,7 +8,7 @@ with open(path.join(this_directory, 'README.md')) as f:
 
 setup(
     name='aiodecorators',
-    version='0.2',
+    version='0.2.1',
     description='Function decorators based on asyncio synchronization primitives',
     keywords='asyncio aio lock semaphore boundedsemaphore decorator decorators synchronization',
     long_description=long_description,
